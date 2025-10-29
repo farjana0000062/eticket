@@ -1,0 +1,121 @@
+/* style.css */
+body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; color:#222;}
+.container { max-width:1000px; margin:0 auto; padding:20px;}
+.topbar { background:#0b5; padding:10px 0; }
+.topbar .brand { font-weight:700; color:#fff; margin-right:20px; text-decoration:none;}
+.topbar nav a { margin-right:10px; color:#fff; text-decoration:none;}
+.search-form label { display:inline-block; margin-right:10px;}
+.results { width:100%; border-collapse:collapse; margin-top:10px;}
+.results th, .results td { padding:8px; border:1px solid #ddd; text-align:left;}
+.seats-grid { display:flex; flex-wrap:wrap; gap:10px;}
+.seat { padding:10px; background:#fff; border-radius:6px; width:120px; text-align:center; box-shadow:0 1px 2px rgba(0,0,0,.05);}
+.seat.booked { opacity:0.5; background:#eee;}
+.inline { display:flex; flex-direction:column; gap:6px; }
+.footer { text-align:center; padding:12px 0; margin-top:20px; color:#666;}
+/* public/css/style.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header / Navbar */
+.topbar {
+  background: linear-gradient(90deg, #007bff, #00a651);
+  color: #fff;
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.topbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  color: #ffeb3b;
+  border-bottom: 2px solid #ffeb3b;
+}
+
+/* Main */
+main.container {
+  background: #fff;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #007bff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Fo*
